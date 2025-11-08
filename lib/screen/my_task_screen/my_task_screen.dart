@@ -209,7 +209,7 @@ class _MyTaskScreenState extends State<MyTaskScreen> {
             );
           }
 
-          if (snapshot.hasData && snapshot.data == 'Kathwada') {
+          if (snapshot.hasData && snapshot.data == 'Ahmedabad') {
             if (_isClockInStarted) {
               final taskName = _tasks[_selectedIndex!]['name']!;
               final total = _parseDurationToSeconds(
